@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: "roboto", sans-serif;
+    font-weight:300;
+    line-height:1.4;
+}
+/* navigation */
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px;
+}
+.logo img {
+    width:150px;
+    height:auto;
+}
+/* .center-nav{
+    display:flex;
+} */
+.search{
+    display: flex;
+}
+.search input{
+    min-width:600px;
+    padding:10px 20px;
+    border:0.5px solid #ccc;
+}
+.search button{
+    border:none;
+    padding:10px 20px;
+}
+.mic{
+    border-radius: 50%;
+    background-color: #ccc;
+    padding:15px;
+    display:grid;
+    place-items: center;
+    margin-left: 15px;
+}
+.mic img{
+    width:30px;
+}
+.side-nav{
+    display: flex;
+    gap:20px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* tags */
+
+.tags{
+    display:flex;
+    gap:15px;
+    padding:10px 20px;
+    border-top:1px solid #ccc;
+}
+.tag-div{
+    border-radius:20px;
+    padding:5px 15px;
+    background-color:rgb(238, 238, 238);
+    border:1px solid rgb(22, 22, 22);
+    color:rgb(67, 67, 67);
+}
+.tag1{
+    color:white;
+    background-color: black;
+}
+aside{
+    padding:10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+.side-icons{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.side-icons img{
+    width:30px;
+}
+.side-icons p{
+    font-size: 10px;
+    margin-top: -5px;
+}
+.bars{
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+}
+.main-container{
+    width:100%;
+}
+
+/* main boxes */
+
+.content-main{
+    display: flex;
+    justify-content: space-between;
+} 
+.first-main-content{
+    display: flex;
+}
+.third-main{
+    margin-left: 50px;
+}
+.all-main-boxs{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;
+    background-color:rgb(240, 238, 238);
+    padding:10px ;
+}
+.box-image img{
+    width:300px;
+    height:auto;
+}
+.box{
+    padding:10px;
+    max-width:320px;
+    height:auto;
+}
+.first-main-content img{
+    width:40px;
+    height:40px;
+    margin-right: 5px;
+}
+.box pre{
+    font-size:16px;
+}
+.third-main h4{
+margin-bottom:5px;
+}

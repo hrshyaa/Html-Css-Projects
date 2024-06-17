@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.biggest-container{
+    display: flex;
+}
+
+html, body{
+    line-height:1.4;
+    scroll-behavior: smooth;
+}
+.all-aside-tags{
+    display:flex;
+    flex-direction:column;
+    width:250px;
+    border-right:1px solid grey;
+    height:100vh;
+    position:sticky;
+    top:0;
+}
+.box a{
+    text-decoration: none;
+}
+.all-aside-tags .box{
+    padding:10px 10px;
+    border-bottom:1px solid grey;
+    transition:0.2s ease-in-out;
+}
+.box:hover{
+    transition:0.2s ease-in-out;
+    background-color:rgb(240, 238, 239);
+}
+.all-aside-tags .box p{
+    color:black;
+    
+}
+.all-aside-tags .aside-heading{
+    
+    padding:10px 10px;
+}
+.aside-heading h2{
+    font-weight:200;
+    font-size: 25px;
+}
+/* main body */
+
+.all-boxs{
+    display:flex;
+    gap:30px;
+    flex-direction: column;
+}
+.common{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    
+}
+.main-container{
+    padding:50px 50px;
+}
+
+.common h2{
+    border-bottom: 1px solid grey;
+    
+}
+.common ul li{
+    margin-left: 20px;
+}
+.one{
+margin-bottom: 20px;
+}
+.aside-heading{
+    border-bottom:1px solid grey;
+}
+.second-box{
+    margin-top:20px;
+}
+.third-box{
+    margin-top:40px;
+}
+.fourth-box{
+    margin-top: 40px;
+    
+}
+.blue-box{
+    background-color: rgb(192, 188, 188);
+    padding:15px 10px;
+    border-radius: 5px;
+    margin:0 10px;
+}
+.hello-content{
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+.fifth-box{
+    margin-top: 40px;
+    margin-bottom: 30px;;
+}
